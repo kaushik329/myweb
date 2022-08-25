@@ -1,0 +1,117 @@
+body{
+    background-color: lightpink;
+    color: white;
+    font-family:arial, helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+    margin:0;
+    
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color: red;
+    color:white;
+}
+
+#navbar{
+    background-color: #333;
+    color:rebeccapurple;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+#navbar a:hover{
+    color:red;
+}
+
+#showcase{
+    background-image:url('../images/nalanda.jpg'); 
+    background-position: center right;
+    min-height: 390px;
+    background-repeat:no-repeat;
+
+    margin:0;
+    text-align: center;
+    background-size:cover;
+    
+}
+
+#showcase h1{
+    color:gainsboro;
+    font-size: 65px;
+	margin-top: 0;
+	padding-top: 120px;
+    line-height: 1.6em;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+}
+
+#main h1{
+    color:red;
+}
+#main p{
+    color: red;
+}
+
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+    
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    padding:10px;
+    box-sizing: border-box;
+    background: #333;
+    margin-top:30px;
+    
+}
+
+#main-footer{
+    background-color: #333;
+    text-align:center;
+    padding:30px;
+    margin: 6px;
+    
+}
+
+@media(max-wdth:600px){
+    #main{
+        float:none;
+        width:100%;
+    }
+    
+    #sidebar{
+        float:none;
+        width:100%;
+    }
+}
